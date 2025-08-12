@@ -1028,7 +1028,7 @@ list_c = []
 for a, b in zip(list_a, list_b):
     list_c.append(b - a)
 
-# 4.2 I realize that the goal is not the difference but the sum of the differences but the sum of how far apart the two numbers are so lets make all negative numbers as positive numbers
+# 4.2 I realize that the goal is not the difference but the sum of how far apart the two numbers are so lets make all negative numbers as positive numbers
 
 list_c = [abs(x) for x in list_c]
 
