@@ -1036,3 +1036,5 @@ list_c = [abs(x) for x in list_c]
 
 total_sum = sum(list_c)
 print("The total sum is", total_sum)
+
+#The total sum is 2113135
